@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.loading-indicator {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 9;
+}
+
+.top-menu-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  background-color: #4267B1;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+.content-container {
+  position: relative;
+  top: 70px;
+  /* height: 1000px; */
+  width: 100%;
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.center {
+  text-align: center;
+}
